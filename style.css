@@ -4,3 +4,80 @@
   margin: 0;
   font-family: "Urbanist";
 }
+.git {
+  max-width: 1440px;
+  margin: auto;
+}
+.git .text-box {
+  text-align: center;
+}
+.text-box {
+  max-width: 390px;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  width: 280px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-img img {
+  width: 285px;
+  height: 214px;
+}
+
+.card h2 {
+  font-size: 20px;
+  margin: 15px 0 10px;
+}
+
+.stars {
+  color: #ffc107;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 15px;
+}
+
+.buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buy span {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.buy button {
+  background: #fcd535;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 20%;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.buy button:hover {
+  background: #ffcc00;
+}
+
+.cards-box {
+  display: flex;
+  gap: 50px;
+  margin-top: 100px;
+}
